@@ -30,6 +30,7 @@ function App() {
   //console.log(itemListings)
   return (
     <Router basename = "/my-app">
+    <Router>
       <Navbar />
       <button onClick = {() => 
         {
