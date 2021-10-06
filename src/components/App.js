@@ -29,7 +29,7 @@ function App() {
   //console.log(JSON.parse(localStorage.getItem("cartItemsKey")))
   //console.log(itemListings)
   return (
-    <Router>
+    <Router basename = "/my-app/">
       <Navbar />
       <button onClick = {() => 
         {
