@@ -13,9 +13,6 @@ function ItemList(props){
                 )
             }
         })
-        //if(props.cart){
-            //console.log(ret)
-       // }
         return(ret)
     }
 

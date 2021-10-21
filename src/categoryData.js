@@ -19,11 +19,6 @@ const categories = [
         image: "assets/images/beds.jpg",
         name:"Beds"
     },
-    {
-        key: 5,
-        image: "assets/images/beds.jpg",
-        name:"Error"
-    },
     
 ]
 

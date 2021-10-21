@@ -24,10 +24,7 @@ import Confirmation from './Confirmation';
 
 
 function App() {
-  //localStorage.clear()
-  //localStorage.setItem("cartKey", "0")
-  //console.log(JSON.parse(localStorage.getItem("cartItemsKey")))
-  //console.log(itemListings)
+
   return (
     <Router basename = "/my-app">
       <Navbar />

@@ -1,4 +1,4 @@
-import React, { useEffect } from "react"
+import React from "react"
 import { useHistory } from "react-router"
 //import CartList from "./CartList"
 import ItemList from "./ItemList"
@@ -9,12 +9,7 @@ function Cart(){
     const cartItems = localStorage.getItem("cartItemsKey")? JSON.parse(localStorage.getItem("cartItemsKey")) : ""
     const count = parseInt(localStorage.getItem("cartCountKey"),10) || 0
 
-    useEffect(()=>{
-
-    },[])
-
     function calcTotalPrice(items){
-        console.log(items)
         const itemPrices = items.map((item) => (item.price))
         return (itemPrices.reduce((prevPrice, curPrice) => prevPrice+curPrice)).toFixed(2)
     }

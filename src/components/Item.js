@@ -1,7 +1,6 @@
 import React from "react"
 
 function Item(props){
-    //console.log(props)
     function addToCart(){
         //Update count, if it doesnt exist set to 1
         const cartCount = parseInt(localStorage.getItem("cartCountKey"),10) || 0
@@ -33,7 +32,7 @@ function Item(props){
         })
 
        //Update the cart and refresh, dealing with the last item appropiately
-       console.log(currentCart)
+    
        if(currentCart.length === 0){
            localStorage.removeItem("cartItemsKey")
        }
