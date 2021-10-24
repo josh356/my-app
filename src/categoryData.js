@@ -16,7 +16,7 @@ const categories = [
     },
     {
         key: 4,
-        image: "assets/images/beds.jpg",
+        image: "assets/images/catbed1.jpg",
         name:"Beds"
     },
     
